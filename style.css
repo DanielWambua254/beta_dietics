@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "lora", sans-serif;
+}
+
+.main_section {
+    background-color: rgba(128, 0, 128, 0.6);
+}
+
+section .nav {
+    width: 100%;
+    position: fixed;
+}
+
+section .nav_bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+section .logo {
+    width: 30%;
+}
+
+section .menu {
+    width: 50%;
+}
+section .menu,
+section .sign-up-btn,
+section .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .menu li{
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+section .menu li a {
+    color: white;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+section .menu li a:hover {
+    font-weight: 500;
+    color: orange;
+}
+
+section .sign-up-btn {
+    width: 20%;
+}
+
+section .sign-up-btn .btn {
+    width: 140px;
+    height: 40px;
+}
+
+section .sign-up-btn  .btn button {
+    width: 100%;
+    height: 100%;
+    background: orange;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    transition: all ease .8s;
+}
+
+section .sign-up-btn  .btn button:hover {
+    background: none;
+    color: black;
+    font-weight: 500;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+section .home {
+    padding: 100px 50px 40px 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section .home .text{
+    width: 45%;
+}
+
+section .home h2 {
+    font-size: 50px;
+    color: white;
+}
+section .home h2 span {
+    color: orange;
+}
+
+section .home p {
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+section .home .sign-up-btn {
+    margin-top: 30px;
+}
+section .home .pic {
+    width: 30%;
+    height: 100%;
+    border: 5px solid white;
+    background-image: url(https://familydoctor.org/wp-content/uploads/2011/01/52232357_l.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
